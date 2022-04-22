@@ -4,9 +4,8 @@
 from enum import Enum
 import numpy as np
 from collections import UserDict
-import os
 from typing import List, Union
-from tokenization_utils import BasicTokenizer, WordpieceTokenizer, load_vocab
+from .tokenization_utils import BasicTokenizer, WordpieceTokenizer, load_vocab
 
 
 class PaddingStrategy(Enum):
